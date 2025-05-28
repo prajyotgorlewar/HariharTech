@@ -1,0 +1,53 @@
+Create a modern, minimal, and professional multi-page React website for a cloud solutions company called Harihar Tech. The website should use React Router for page navigation with three routes: / for Home, /services for Services, and /about for About Us. The site must use Tailwind CSS for styling and follow a dark, clean theme.
+The color scheme should be:
+Dark Blue #0A192F as the primary background color
+White #FFFFFF for text on dark sections
+Yellow #FFCC00 as the accent color (for buttons, highlights)
+Dark Gray #333333 for text on light backgrounds
+Use the Poppins or Inter font from Google Fonts. Maintain a minimal, tech-forward aesthetic with plenty of spacing, modern hover effects, and responsive layout.
+Design a sticky navigation bar with three links: Home, Services, and About Us. Highlight the active page with a yellow underline or accent. On mobile, the nav should collapse into a hamburger menu.
+
+For the / Home Page:
+Create a Hero Section with a dark blue background and centered white text. It should include:
+Headline: “Empowering Growth Through Cloud Innovation”
+Subheadline: “Scalable, secure, and future-ready cloud solutions designed to fuel your business success.”
+Supporting paragraph starting with: “At Harihar Tech, we enable businesses to thrive in the digital age...”
+Three CTA buttons:
+1.Get a Free Consultation (yellow background, white text)
+2.View Our Solutions (transparent with white border)
+3.Partner With Us (as a text link with an icon)
+Next, add a Highlights Section with a white background and dark text. Include a grid of four features:
+1.Blazing-Fast Deployments
+2.Military-Grade Security
+3.Expert Engineering Team
+Trusted by Growing Businesses Across India
+Include a centered quote below:
+“Built on reliability. Designed for scale. Delivered with heart.”
+
+For the /services Services Page:
+Begin with a section titled “What We Do”, with a subtitle that reinforces cloud innovation. Present five service cards in a responsive grid. Each should include an icon, bold title, and brief description:
+1.Cloud Infrastructure Setup — Azure, AWS, or GCP
+2.DevOps & Automation — CI/CD, Terraform, and pipelines
+3.Security & Compliance — Zero-trust, encryption, and standards like ISO 27001 and HIPAA
+4.Monitoring & Optimization — Grafana, Azure Monitor, and cost analysis
+5.AI/ML & Data Engineering — Data lakes, analytics pipelines, and ML model deployment
+Below this, include a “How It Works” section with four horizontally laid out (or stacked on mobile) steps:
+Discover & Assess
+Architect the Solution
+Deploy & Integrate
+Monitor & Support
+Use rounded cards with yellow step numbers and soft shadows.
+
+For the /about About Us Page:
+Start with a bold centered quote:
+“We’re not just a service provider — we’re your cloud partner.”
+Add a descriptive paragraph about the team’s passion for cloud engineering, tailored secure solutions, and long-term partnerships. Below this, add a contact box with the following info:
+📧 Email: contact@yourcompany.com
+📞 Phone: +91 8767937077
+📍 Location: Nagpur, India
+
+Close the page with another centered quote:
+“We don’t just implement technology — we empower businesses to lead with it.”
+
+Each page should include a Footer visible at the bottom, with a dark blue background, light gray text, and company details. Use Tailwind for responsive layout, spacing (py-20, px-6), soft shadows, hover transitions, and rounded elements throughout. Avoid scroll-based navigation — use React Router exclusively for routing.
+
