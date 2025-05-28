@@ -59,7 +59,7 @@
   }
 
   body {
-    @apply font-inter antialiased bg-background text-foreground;
+    @apply font-poppins antialiased bg-background text-foreground;
   }
 }
 
@@ -98,5 +98,35 @@
   
   .font-poppins {
     font-family: 'Poppins', sans-serif;
+  }
+
+  .hero-bg-pattern {
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(255, 204, 0, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(255, 204, 0, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+  }
+
+  .floating-icon {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .floating-icon-delayed {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulse-glow {
+    from { box-shadow: 0 0 20px rgba(255, 204, 0, 0.3); }
+    to { box-shadow: 0 0 30px rgba(255, 204, 0, 0.6); }
   }
 }
