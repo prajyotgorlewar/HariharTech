@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 export default function About() {
   return (
     <div>
-      <section className="bg-primary-dark py-20 px-6">
+      <section className="bg-primary-dark pt-[10rem] pb-[2.5rem] px-6">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-3xl md:text-4xl font-bold text-white mb-12 italic">
             "We're not just a service provider — we're your cloud partner."

@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-primary-dark py-20 px-6 relative overflow-hidden hero-bg-pattern">
+      <section className="bg-primary-dark px-6 pt-[7.5rem] pb-[5rem] relative overflow-hidden hero-bg-pattern">
         {/* Floating Background Icons */}
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none mt-[2rem]">
           <Cloud className="absolute top-20 left-10 text-white/10 w-16 h-16 floating-icon" />
           <Server className="absolute top-32 right-20 text-accent-yellow/20 w-12 h-12 floating-icon-delayed" />
           <Database className="absolute bottom-40 left-20 text-white/10 w-14 h-14 floating-icon" />
@@ -30,15 +30,15 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <button className="bg-accent-yellow text-primary-dark px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 pulse-glow shadow-lg">
-              Get a Free Consultation
+              Partner With Us
             </button>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               View Our Solutions
             </button>
-            <a href="#" className="text-white hover:text-accent-yellow transition-all duration-300 flex items-center gap-2 font-semibold group">
-              <span>Partner With Us</span>
-              <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </a>
+            <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              Get a free consultation
+            </button>
+            
           </div>
         </div>
       </section>

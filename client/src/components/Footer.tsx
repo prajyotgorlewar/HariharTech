@@ -21,11 +21,11 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4">Contact</h4>
+            <h4 className="text-white font-semibold mb-4">Contact Us</h4>
             <div className="text-sm space-y-2">
-              <p>Nagpur, India</p>
-              <p>+91 8767937077</p>
               <p>contact@yourcompany.com</p>
+              <p>+91 8767937077</p>
+              <p>Nagpur, India</p>
             </div>
           </div>
         </div>

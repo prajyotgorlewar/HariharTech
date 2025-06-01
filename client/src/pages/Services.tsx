@@ -1,10 +1,10 @@
-import { Cloud, Settings, Lock, TrendingUp, Brain } from "lucide-react";
+import { Cloud, Settings, Lock, TrendingUp, Brain, Palette, Globe, BarChart, Sliders } from "lucide-react";
 
 export default function Services() {
   return (
     <div>
       {/* What We Do Section */}
-      <section className="bg-primary-dark py-20 px-6">
+      <section className="bg-primary-dark pt-[10rem] pb-[2.5rem] px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">What We Do</h1>
           <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
@@ -52,6 +52,39 @@ export default function Services() {
               <h3 className="text-xl font-bold text-text-gray mb-4">AI/ML & Data Engineering</h3>
               <p className="text-gray-600">Data lakes, analytics pipelines, and ML model deployment to unlock business intelligence.</p>
             </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
+              <div className="bg-accent-yellow w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Palette className="text-primary-dark h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-bold text-text-gray mb-4">UI/UX</h3>
+              <p className="text-gray-600">Crafting intuitive interfaces and delightful user journeys that drive your business forward.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
+              <div className="bg-accent-yellow w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Globe className="text-primary-dark h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-bold text-text-gray mb-4">Websites, Mobile apps and Softwares</h3>
+              <p className="text-gray-600">Delivering custom web, mobile, and software solutions to drive growth and streamline operations.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
+              <div className="bg-accent-yellow w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <BarChart className="text-primary-dark h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-bold text-text-gray mb-4">Business Analytics</h3>
+              <p className="text-gray-600">Transforming your data into actionable business intelligence using Power BI, Tableau, and advanced analytics.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
+              <div className="bg-accent-yellow w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Sliders className="text-primary-dark h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-bold text-text-gray mb-4">AIOps, MLOps & DataOps</h3>
+              <p className="text-gray-600">Streamlining AI, ML, and data workflows with intelligent automation, featuring Azure Data Factory and Databricks CI/CD.</p>
+            </div>
+
           </div>
         </div>
       </section>
