@@ -16,7 +16,13 @@ export default function Footer() {
               <li>Cloud Infrastructure</li>
               <li>DevOps & Automation</li>
               <li>Security & Compliance</li>
-              <li>AI/ML Solutions</li>
+              <li>Monitoring & Optimization</li>
+              <li>AI/ML & Data Engineering</li>
+              <li>UI/UX</li>
+              <li>Websites, Mobile apps and Softwares</li>
+              <li>Business Analytics</li>
+              <li>AIOps, MLOps & DataOps</li>
+              <li>Digital Marketing</li>
             </ul>
           </div>
           
