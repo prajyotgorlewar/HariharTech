@@ -85,6 +85,16 @@ export default function Services() {
               <p className="text-gray-600">Streamlining AI, ML, and data workflows with intelligent automation, featuring Azure Data Factory and Databricks CI/CD.</p>
             </div>
 
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
+              <div className="bg-accent-yellow w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Sliders className="text-primary-dark h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-bold text-text-gray mb-4">Digital Marketing</h3>
+              <p className="text-gray-600">Boosting engagement and growth with automated, data-driven strategies using tools like Google Analytics, Meta Ads, and HubSpot.
+
+</p>
+            </div>
+
           </div>
         </div>
       </section>
