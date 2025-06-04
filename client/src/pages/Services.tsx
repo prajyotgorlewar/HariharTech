@@ -6,10 +6,13 @@ export default function Services() {
       {/* What We Do Section */}
       <section className="bg-primary-dark pt-[10rem] pb-[2.5rem] px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">What We Do</h1>
-          <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
-            We deliver innovative cloud solutions that transform how businesses operate, scale, and compete in the digital marketplace.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+             Empowering Digital Transformation
+          </h1>
+            <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
+              We architect scalable, secure, and intelligent cloud solutions that redefine operational efficiency and accelerate business growth in an ever-evolving digital landscape.
+            </p>
+
           
           {/* Service Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
