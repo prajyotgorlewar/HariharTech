@@ -1,4 +1,5 @@
 import { Rocket, Shield, Users, Heart, ArrowRight, Cloud, Server, Database, Zap, Globe, Lock } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Home() {
   return (
@@ -29,15 +30,23 @@ export default function Home() {
           
           {/* CTA Buttons */}
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <button className="bg-accent-yellow text-primary-dark px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 pulse-glow shadow-lg">
-              Partner With Us
-            </button>
+<Link href="/about">
+  <button className="bg-accent-yellow text-primary-dark px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 pulse-glow shadow-lg">
+    Partner With Us
+  </button>
+</Link>
+
+<Link href="/services">
             <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               View Our Solutions
             </button>
+            </Link>
+
+            <Link href="/about">
             <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               Get a free consultation
             </button>
+            </Link>
             
           </div>
         </div>
